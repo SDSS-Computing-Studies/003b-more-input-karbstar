@@ -14,3 +14,16 @@ Enter the # of days in the month: 30
 You earned $0.20 interest. 
 (2 points) 
 """
+import math
+
+
+x =float(input("enter your amount"))
+y= float(input("enter your rate"))
+z = int(input("enter the number of days in the month"))
+
+
+rate = x*(y/100)*z / 360
+a = rate*100
+final = math.floor(a)
+ak= final/100
+print(ak)
