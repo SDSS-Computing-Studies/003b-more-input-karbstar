@@ -14,3 +14,10 @@ That is worth $8.00 USD
 How many Canadian Dollars do you have? 1.25
 That is worth $1.00 USD
 """
+current_population = int(input("Enter the population"))
+r= float(input("Enter the rate of growth in percent"))
+time = int(input("Enter the number of days"))
+rw = r/100
+population = current_population*(1+rw)**(time/365)
+pop = round(population)
+print(pop)
