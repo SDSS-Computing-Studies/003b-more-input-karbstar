@@ -26,4 +26,4 @@ rate = x*(y/100)*z / 360
 a = rate*100
 final = math.floor(a)
 ak= final/100
-print(ak)
+print(f"You earned {ak}interest.")
