@@ -20,4 +20,4 @@ time = int(input("Enter the number of days"))
 rw = r/100
 population = current_population*(1+rw)**(time/365)
 pop = round(population)
-print(pop)
+print(f"There will be {pop} people after {time} days")
