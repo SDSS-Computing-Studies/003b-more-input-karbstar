@@ -29,6 +29,4 @@ t5 = y*0.12
 tax = t1 + t2 + t3 + t4 + t5
 total = w + e + r + t + y
 final = total + tax
-print(f"total without tax: {total}" )
-print(f"total tax: {tax}")
-print (f"final total {final}")
+print(f"Your subtotal is ${total} and your taxes total ${tax} for a total of ${final}")
