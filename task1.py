@@ -25,5 +25,5 @@ z = int(input("enter the number of days in the month"))
 rate = x*(y/100)*z / 360
 a = rate*100
 final = math.floor(a)
-ak= final/100
-print(f"You earned {ak}interest.")
+ak= final/100 
+print(f"You earned ${ak} interest.")
