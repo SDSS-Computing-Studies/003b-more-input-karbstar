@@ -10,9 +10,9 @@ Today we picked apple from _PERSON_'s Orchard. I had no idea there were so many 
 """
 
 PERSON =(input("enter a name"))
-ADJECTIVE=(input("enter a ADJECTIVE"))
+ADJECTIVE=(input("enter a adjective"))
 FOOD=(input("enter a food"))
-ADJECTIVE2=(input("enter a ADJECTIVE"))
+ADJECTIVE2=(input("enter a adjective"))
 NOUN=(input("enter a noun"))
 PLACE=(input("enter a place"))
 VERB=(input("enter a verb"))
