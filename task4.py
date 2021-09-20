@@ -11,12 +11,13 @@ Today we picked apple from _PERSON_'s Orchard. I had no idea there were so many 
 
 PERSON =(input("enter a name"))
 ADJECTIVE=(input("enter a ADJECTIVE"))
-FOOD=(input("enter a food"
-ADJECTIVE2=(input(
-=(input(
-=(input(
-=(input(
-=(input(
-=(input(
-=(input(
-=(input(
+FOOD=(input("enter a food"))
+ADJECTIVE2=(input("enter a ADJECTIVE"))
+NOUN=(input("enter a noun"))
+PLACE=(input("enter a place"))
+VERB=(input("enter a verb"))
+ADVERB=(input("enter a adverb"))
+FOOD2=(input("enter a food"))
+THINGS=(input("enter a thing"))
+
+print(f"Today we picked apple from {PERSON}'s Orchard. I had no idea there were so many different varieties of apples. I ate {ADJECTIVE} apples straight off the tree that tasted like {FOOD}. Then there was a {ADJECTIVE2} apple that looked like a {NOUN}.  When our bag was full, we went on a free hay ride to {PLACE} and back. It ended at a hay pile where we got to {VERB} {ADVERB}. I can hardly wait to get home and cook with the apples. We are going to make appple {FOOD2} and {THINGS} pies!")
